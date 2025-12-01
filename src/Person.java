@@ -1,4 +1,4 @@
-public class Person {
+public abstract class Person {
     private String name;
     private int age;
     private String id;
@@ -15,6 +15,7 @@ public class Person {
         this.id = id;
     }
     
+    // Getter和Setter保持不变
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
     
